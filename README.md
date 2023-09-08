@@ -12,8 +12,8 @@ Everything added to the database is encrypted by (a very weak) XOR encryption.
 
 ## Building
 - Clone this repo.
-- Run `cargo build`. (Do not do `cargo run`. This will throw an error.)
-- Move the compiled file (usually in `target/debug`) to a folder with the (`sites.db`)[https://github.com/tyropro/CLIBookmarks/releases/download/1.0.0/sites.db] file.
+- Run `cargo build`. (Do not run `cargo run`. This will throw an error.)
+- Move the compiled file (usually in `target/debug`) to a folder with the `sites.db` file (find this in data/).
 
 ### Disclaimer
 This is not meant to be secure. It's just meant to work :)
