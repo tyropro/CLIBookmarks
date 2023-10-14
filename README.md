@@ -4,7 +4,7 @@ Rust program to open a `sites.db` file.
 
 It can add, remove and list entries in the `sites.db` file. 
 
-Everything added to the database is encrypted by (a very weak) XOR encryption. 
+Everything added to the database is encrypted by a (very weak) XOR encryption algorithm. 
 
 ## Usage
 - Open a command line and navigate to the directory with the executable and the database file.
